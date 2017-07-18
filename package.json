@@ -1,7 +1,6 @@
 {
   "name": "inari-note",
   "version": "1.0.0",
-  "description": "",
   "main": "index.js",
   "scripts": {
     "start": "gitbook serve ./content ./gh-pages",
@@ -13,7 +12,17 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
+  "dependencies": {},
+  "devDependencies": {
     "gh-pages": "^1.0.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/knnonyuuki/inari-node.git"
+  },
+  "bugs": {
+    "url": "https://github.com/knnonyuuki/inari-node/issues"
+  },
+  "homepage": "https://github.com/knnonyuuki/inari-node#readme",
+  "description": ""
 }
